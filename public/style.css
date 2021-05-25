@@ -1,0 +1,32 @@
+nav{
+    background-color: blueviolet;
+    color:#fff;
+    padding:20px 50px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+nav li a:hover {
+    color:green;
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+}
